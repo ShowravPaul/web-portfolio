@@ -1,8 +1,15 @@
 body{
+    margin: 0px;
     font-family: 'Open Sans', sans-serif;               
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .name-highlight{
     color: orange;
@@ -15,4 +22,24 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-repeat: no-repeat;
+    background-image: url("images/top-banner.png");
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightgreen, green);
+    padding: 10px 30px;
+    border-radius: 5%;
+    color: white;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
